@@ -383,11 +383,7 @@ st.markdown(
     Dashboard ini dirancang untuk memberikan gambaran **dinamis** mengenai tren dan komposisi kendaraan listrik di Amerika Serikat.  
     - Anda dapat **mengubah rentang tahun**, **memilih jenis kendaraan** (BEV, PHEV), atau **memilih kota/merek tertentu**  
       melalui panel di sebelah kiri untuk melihat bagaimana grafik berubah sesuai filter.  
-    - Tooltips di setiap grafik memungkinkan Anda melihat angka dan detail tambahan dengan menunjuk kursor.  
     - Heatmap menggambarkan distribusi jumlah EV per tiap negara bagian (State) dan per tahun, sehingga memudahkan  
       identifikasi “hotspot” adopsi EV.  
-
-    Semoga dashboard ini membantu memahami **visualisasi data interaktif** sesuai prinsip desain yang telah diajarkan di kelas.  
-    Untuk melihat proses lengkap pembuatan dan pembagian tugas tim, silakan sertakan *_laporan PDF_* sebagaimana **spesifikasi tugas**.
     """
 )
