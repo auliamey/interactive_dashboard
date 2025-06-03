@@ -68,7 +68,7 @@ selected_types = st.sidebar.multiselect(
 # 4.3 Multiselect Kota (opsional): Biasanya kita fokus pada top 10
 all_cities = sorted(df["City"].dropna().unique())
 selected_cities = st.sidebar.multiselect(
-    "Pilih Kota (kosongkan = semua)", 
+    "Pilih Kota", 
     options=all_cities,
     default=[]
 )
@@ -76,7 +76,7 @@ selected_cities = st.sidebar.multiselect(
 # 4.4 Multiselect Merek (opsional)
 all_makes = sorted(df["Make"].dropna().unique())
 selected_makes = st.sidebar.multiselect(
-    "Pilih Merek (kosongkan = semua)", 
+    "Pilih Merek", 
     options=all_makes,
     default=[]
 )
